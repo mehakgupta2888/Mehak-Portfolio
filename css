@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fc;
+    color: #222;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #3055fa;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #3055fa;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2842a9;
+    margin-bottom: 18px;
+}
+
+.project {
+    background: #fff;
+    margin-bottom: 26px;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px rgba(44,62,80,0.06);
+    padding: 22px 25px;
+}
+
+.project h2 {
+    margin: 0 0 6px 0;
+    color: #3055fa;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    background: #ecf2ff;
+    margin-bottom: 12px;
+    padding: 14px 18px;
+    border-radius: 6px;
+    color: #213160;
+    font-size: 1rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 440px;
+}
+
+#contact input, #contact textarea {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #b6c1e5;
+    font-size: 1rem;
+    background: #fff;
+}
+
+#contact button {
+    background: #3055fa;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+#contact button:hover {
+    background: #2543ba;
+}
+
+.form-message {
+    color: #3055fa;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 28px 0 12px 0;
+    color: #AAA;
+    background: #f1f2f7;
+    margin-top: 20px;
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 97%;
+        padding: 0 8px;
+    }
+    nav ul {
+        gap: 1.1rem;
+    }
+    section {
+        padding: 30px 0;
+    }
+}
