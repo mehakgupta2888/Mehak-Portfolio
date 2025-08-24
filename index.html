@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mehak Gupta | Business Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,75 +12,52 @@
         <div class="logo">Mehak Gupta</div>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="about">
-        <div class="container">
-            <h1>About Me</h1>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>
+                Business Analyst<br>
+                <span class="gradient">Portfolio</span>
+            </h1>
             <p>
-                Results-driven <b>Business Analyst</b> with 2+ years’ experience optimizing healthcare operations and data workflows. I specialize in requirement gathering, SQL automation, and transforming stakeholder needs into actionable solutions—enabling better decisions and streamlined business outcomes. I’m passionate about translating analytics into impact, and eager to drive innovation at your organization.
+                Hi, I'm Mehak Gupta. I help organizations drive transformation through data analytics, process optimization, and clear business insight.
             </p>
         </div>
-    </section>
-    <section id="projects">
-        <div class="container">
-            <h1>Projects</h1>
-            <div class="project">
+        <div class="project-cards">
+            <!-- PROJECT CARDS START -->
+            <div class="project-card" onclick="window.open('Project Link', '_blank')">
+                <span class="project-label">Business Case</span>
                 <h2>Social Media Strategy</h2>
                 <p>
-                    Analyzed engagement for women-focused e-commerce brands, identified target segments, and authored a BRD that boosted Instagram and Pinterest campaign reach by 20%.
+                  Guided a campaign strategy using analytics for women-focused e-commerce,<br>
+                  resulting in a 20% boost in reach.
                 </p>
-                <a href="Project Link" target="_blank">View Project</a>
             </div>
-            <div class="project">
+            <div class="project-card" onclick="window.open('Project Link', '_blank')">
+                <span class="project-label">User Research</span>
                 <h2>Degree Discovery</h2>
                 <p>
-                    Led requirements gathering and prototyping for a product simplifying the graduate school application experience, accelerating stakeholder buy-in through research-driven insights.
+                  Prototyped a solution for master’s applicants—drove process mapping<br>
+                  and research-driven feature design.
                 </p>
-                <a href="Project Link" target="_blank">View Project</a>
             </div>
-            <div class="project">
-                <h2>Fingerprint Authentication Application</h2>
+            <div class="project-card" onclick="window.open('Project Paper', '_blank')">
+                <span class="project-label">Product Design</span>
+                <h2>Fingerprint Authentication</h2>
                 <p>
-                    Designed a biometric-enabled Android app for COVID-19 attendance tracking; gathered requirements, collaborated with stakeholders, and supported development.
+                  Led requirements gathering and design of a biometric app for secure attendance during COVID-19.
                 </p>
-                <a href="Project Paper" target="_blank">Project Paper</a>
             </div>
+            <!-- PROJECT CARDS END -->
         </div>
-    </section>
-    <section id="skills">
-        <div class="container">
-            <h1>Skills</h1>
-            <ul class="skills-list">
-                <li><strong>Business Process Analysis:</strong> Transforming business needs into scalable solutions, process mapping, and documentation.</li>
-                <li><strong>Data Analytics & Automation:</strong> SQL, Python, Power BI, Tableau, and creating insightful dashboards and automated workflows.</li>
-                <li><strong>Stakeholder Collaboration:</strong> Bridging technical and non-technical teams, requirements gathering, and agile project management.</li>
-                <li><strong>Strategic & Critical Thinking:</strong> Identifying pain points, driving data-informed decisions, and delivering measurable impact.</li>
-            </ul>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h1>Contact Me</h1>
-            <p>Email: <a href="mailto:2888mehak@gmail.com">2888mehak@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/mehakg2/" target="_blank">linkedin.com/in/mehakg2</a></p>
-            <form id="contact-form">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-                <button type="submit">Send</button>
-                <p class="form-message"></p>
-            </form>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            &copy; 2025 Mehak Gupta | Portfolio
-        </div>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+        <div class="scroll-down"><span></span></div>
+    </header>
+    
+    <section id="about" class="section about-section fade-in">
+        <h2>About Me</h2>
+        <p>
+            I’m a <strong>Business Analyst</strong> specializing in transforming complex data
